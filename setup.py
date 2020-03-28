@@ -8,7 +8,7 @@ from pkg_resources import DistributionNotFound, get_distribution
 INSTALL_REQUIRES = ["numpy>=1.11.1", "scipy", "imgaug>=0.2.5,<0.2.7", "PyYAML"]
 
 # If first not installed install second package
-CHOOSE_INSTALL_REQUIRES = [("opencv-python>=4.1.1", "opencv-python-headless>=4.1.1")]
+CHOOSE_INSTALL_REQUIRES = []
 
 
 def get_version():
